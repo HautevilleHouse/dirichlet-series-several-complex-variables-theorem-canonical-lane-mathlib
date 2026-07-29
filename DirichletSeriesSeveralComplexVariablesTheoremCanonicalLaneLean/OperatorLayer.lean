@@ -1,0 +1,14 @@
+import HautevilleHouse.DirichletSeriesSeveralComplexVariablesTheoremCanonicalLaneLean.DirichletSeriesObjectLayer
+
+nd Dirichlet series operator layer to bridge the object layer to the certificate closure.
+-/
+
+namespace HautevilleHouse
+namespace DirichletSeriesSeveralComplexVariablesTheoremCanonicalLaneLean
+
+def operatorLayerCertificate : DirichletSeriesObjectLayerCertificate := dirichletSeriesObjectLayerCertificate
+
+theorem operator_layer_bridge_ready : operatorLayerCertificate = dirichletSeriesObjectLayerCertificate := rfl
+
+end DirichletSeriesSeveralComplexVariablesTheoremCanonicalLaneLean
+end HautevilleHouse
